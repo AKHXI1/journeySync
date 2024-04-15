@@ -1,0 +1,230 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #01AA97;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Form field styles */
+.field {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+/* Search button styles */
+#search {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#search:hover {
+  background-color: #0056b3;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+/* Book Now button styles */
+.book a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.book a:hover {
+  text-decoration: underline;
+}
+
+.book {
+  display: inline-block;
+  background-color: #28a745;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Ticket styles */
+.ticket {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.ticket h2 {
+  text-align: center;
+  color: #333;
+}
+
+.ticket .row {
+  margin-bottom: 10px;
+}
+
+.ticket .col-xs-6 {
+  width: 50%;
+}
+
+.ticket .pull-left {
+  float: left !important;
+}
+
+.ticket .pull-right {
+  float: right !important;
+}
+
+/* Final animated flip styles */
+.final {
+  display: none;
+}
+/* Datepicker styles */
+.ui-datepicker {
+    width: 250px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ui-datepicker-header {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.ui-datepicker-title {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.ui-datepicker-calendar {
+    width: 100%;
+}
+
+.ui-datepicker-calendar th,
+.ui-datepicker-calendar td {
+    padding: 5px;
+    text-align: center;
+}
+
+.ui-datepicker-calendar .ui-state-default {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.ui-datepicker-calendar .ui-state-default:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.ui-datepicker-calendar .ui-state-highlight {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.ui-datepicker-calendar .ui-datepicker-week-end .ui-state-default {
+    color: #d9534f; /* Color for weekends */
+}
+
+.ui-datepicker-buttonpane {
+    background-color: #f2f2f2;
+    border: none;
+    text-align: center;
+}
+
+.ui-datepicker-close {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ui-datepicker-close:hover {
+    background-color: #a3a3a3;
+}
